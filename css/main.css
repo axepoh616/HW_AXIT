@@ -268,7 +268,8 @@ p {
 .tab-part{
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-between;
+	
 	
 }
 
@@ -291,7 +292,7 @@ p {
 	
 }
 
-.tab-checkbox:checked~.tab-form{
+.checkbox:checked~.tab-checkbox{
 	background-color: #ff8b38;
 }	
 
@@ -310,7 +311,7 @@ p {
 	justify-content: center;
 	height: 110px;
 	background-color: #333333;
-	border-radius: 1%;
+	border-radius: 3%;
 	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 	margin-bottom:1px ;
 	font-family: 'Source Sans Pro';
@@ -327,14 +328,9 @@ p {
 	left: 100px;
 	transform: translateY(-50%);
 	border: 1px solid black;
-	display: none;
-    display: flex;
-	flex-direction: column;
 	height: 300px;
 	width: 475px;
 	padding: 0 100px 0 100px ;
-
-
 }
 
 
