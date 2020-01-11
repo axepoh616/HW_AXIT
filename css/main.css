@@ -18,6 +18,7 @@ a {
 	margin-bottom: 60px;
 	background-color: #000;
 	padding: 16px 0;
+	z-index: 1;
 }
 .header_container {
 	display: flex;
@@ -255,9 +256,8 @@ p {
 
 
 
-
 .tabs{
-	padding-top: 180px;
+	padding-top: 120px;
 	padding-bottom: 145px;
 	background-color: #f5f5f5;
 	display: flex;
@@ -265,14 +265,46 @@ p {
 	align-content: center;
 	
 }
+.tab-part{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
 .tab-form{
 	display: flex;
 	flex-direction: column;
 	height: 335px;
 	width: 112px;
+	position: relative;
 	
 }
-.tab{
+
+.tab-checkbox:hover{
+	background-color: grey;
+}
+
+
+.checkbox{
+	display: none;
+	
+}
+
+.tab-checkbox:checked~.tab-form{
+	background-color: #ff8b38;
+}	
+
+
+.checkbox:checked~.description-tab-form{
+	display: block;
+	
+
+}
+
+
+
+.tab-checkbox{
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -285,20 +317,27 @@ p {
     font-weight: bold;
 	font-style: normal;
 	color: white;
+	text-transform: uppercase;
 
 }
-.tab:hover{
-	background-color: #ff8b38;
-}
+
 .description-tab-form{
-	display: flex;
+	position: absolute;
+	top: 50%;
+	left: 100px;
+	transform: translateY(-50%);
+	border: 1px solid black;
+	display: none;
+    display: flex;
 	flex-direction: column;
 	height: 300px;
 	width: 475px;
-	padding: 0 102px 0 102px ;
-	
+	padding: 0 100px 0 100px ;
+
 
 }
+
+
 .descriptions-tab-form-text{
 	margin-top: 10px;
 	font-family: 'Source Sans Pro';
@@ -313,6 +352,17 @@ p {
 	
 
 }
+
+
+
+	
+
+
+
+
+
+
+
 .description-tab-key{
 	display: flex;
 	align-items: center;
@@ -330,9 +380,9 @@ p {
 	background-color: #ce7100;
 }
 .tab-pic{
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	
+	height: 253px;
+	width: 320px;
 }
 
 
@@ -853,56 +903,3 @@ p {
 
 
 
-
-.wrapper{
-	margin-top: 50px;
-	position: relative;
-	border: 1px solid black;
-
-
-
-}	
-.checkbox{
-	display: none;
-}
-.checkbox:checked~.fake-checkbox{
-	background-color: coral;
-
-}
-.checkbox:checked~.description-tab-form{
-	display: block;
-
-}
-
-
-
-.fake-checkbox{
-	height: 50px;
-	width: 50px;
-	background-color: #000;
-	color: #fff;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin-bottom: 2px;
-
-}
-.description-tab-form{
-	position: absolute;
-	top: 50%;
-	left: 100px;
-	transform: translateY(-50%);
-	border: 1px solid black;
-	display: none;
-
-
-}
-.block12{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translateY(-50%) translateX(-50%)rotateZ(45deg);
-	width: 100px;
-	height: 100px;
-	background-color: black;
-}
