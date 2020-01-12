@@ -415,7 +415,7 @@ p {
 }
 .block{
 	height: 200px;
-	width: 350px;
+	width: 360px;
 
 }
 .block-name{
@@ -438,8 +438,8 @@ p {
 }
 .filling{
     display: flex;
-    justify-content: center;
-	align-self: baseline;
+    justify-content: space-between;
+	
 	
 }
 .img {
@@ -460,7 +460,8 @@ p {
 
 
 
-.pricing-part{
+.pricing-section{
+
 	background-color: #f5f5f5;
 }
 .pricing{
@@ -479,8 +480,8 @@ p {
 
 .price-filling{
     display: flex;
-    justify-content: center;
-	align-self: baseline;
+    justify-content: space-between;
+	
 	align-items: flex-end;
 	
 }
@@ -489,7 +490,8 @@ p {
 	width: 345px;
 	display: flex;
 	justify-content: center;
-	margin: 40px;
+	margin-top: 80px;
+	margin-bottom: 100px;
 }
 .item{
 	width: 345px;
@@ -584,7 +586,13 @@ p {
 
 
 
+.custom-part{
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
 
+}
 
 .custom-name{
 	font-size: 28px;
@@ -611,11 +619,15 @@ p {
 	justify-content: center;
 	height: 135px;
 	width: 275px;
-	text-align: center;
+	padding: 10px;
+
 	color: gray;
 	background-color: #f5f5f5;
 	border-radius:2px;
 	align-items: center;
+	font-family: 'Open Sans';
+    font-weight: 300;
+    font-style: italic;
     
 }
 .custom{
@@ -627,13 +639,14 @@ p {
 }
 .custom-filling{
     display: flex;
-    justify-content: center;
+	justify-content: space-between;
+	width: 1100px;
 	
 	
 }
 .cblock{
-	width: 275px;
-	margin: 0 60px 100px 60px ;
+	width: 295px;
+	margin-bottom: 100px;
 }
 
 .custom-img {
@@ -669,14 +682,16 @@ p {
 }
 
 
-
+.design-part{
+	background-image: url(../img/fon2.png);
+	height: 320px;
+}
 
 .design{
     text-align: center;
     justify-content: center;
 	align-items: center;
-	background-image: url(../img/fon2.png);
-	height: 320px;
+	
 }
 .design-name{
 	display: inline-block;
@@ -822,13 +837,13 @@ p {
 
 
 
+.footer{
+	background-color: black;
 	
+}	
 
 .footer_part{
-	
-
 	height: 100px;
-	background-color: #000;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
@@ -860,6 +875,7 @@ p {
 }
 .footer_item:hover{
 	opacity: 1.0;
+	
 }
 
 .icon2{
