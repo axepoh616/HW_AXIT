@@ -674,11 +674,10 @@ p {
 	justify-content: center;
 }
 .triangle{
-	width: 0; 
-    height: 0;
-    border-left: 35px solid transparent;
+	border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     border-top: 20px solid #f5f5f5;
+    margin-left: 25px;
 }
 
 
