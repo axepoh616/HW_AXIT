@@ -35,7 +35,7 @@ a {
 }
 .menu_it{
 	display: inline-block;
-	margin-right: 40px;
+	margin-left: 40px;
 }
 .menu_item{
 	color: #b0b0b0;
@@ -204,6 +204,10 @@ p {
 	background-image: url(../img/social-ic.png);
 	background-repeat: no-repeat;
 	background-position: 0px 0;
+	opacity: 1.0;
+}
+.links_item:hover{
+	opacity: 0.7;
 }
 .icon-2{
 	width: 46px;
@@ -324,19 +328,23 @@ p {
 }
 
 .description-tab-form{
+	display: flex;
+	flex-direction: column;
 	position: absolute;
-	top: 50%;
+	top: 150px;
 	left: 100px;
 	transform: translateY(-50%);
-	border: 1px solid black;
-	height: 250px;
+
+	height: 320px;
 	width: 475px;
 	padding: 0 100px 0 100px ;
+	display: none;
 }
 
 
 .descriptions-tab-form-text{
-	margin-top: 0px;
+	display: flex;
+	flex-direction: column;
 	font-family: 'Source Sans Pro';
     font-weight: bold;
     font-style: normal;
@@ -391,6 +399,7 @@ p {
 
 
 .awensome-name{
+	padding-top: 110px;
 	font-size: 28px;
     font-family: 'Raleway';
     font-weight: normal;
@@ -422,7 +431,6 @@ p {
     
 }
 .awensome{
-    margin-top: 100px;
     margin-bottom: 60px;
     text-align: center;
     justify-content: center;
@@ -832,57 +840,64 @@ p {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 46px;
-	width: 500px;
+	height: 22px;
+	width: 252px;
+	
 }
 
 .footer_item {
 	display: inline-block;
-	width: 25px;
-	height: 46px;
+	width: 11px;
+	height: 22px;
 	align-items: center;
 	background-image: url(../img/social-ic.png);
 	background-repeat: no-repeat;
 	background-position: 0px 0;
+	background-size: 300px;
+	opacity: 0.5;
 	
+	
+}
+.footer_item:hover{
+	opacity: 1.0;
 }
 
 .icon2{
-	width: 46px;
-	height: 46px;
-	margin-left: 30px;
-	background-position: -84px 0;
+	width: 21px;
+	height: 22px;
+	margin-left: 15px;
+	background-position: -41px 0;
 	
 }
 .icon3{
-	width: 46px;
-	height: 46px;
-	margin-left: 30px;
-	background-position: -190px 0;
+	width: 21px;
+	height: 22px;
+	margin-left: 15px;
+	background-position: -90px 0;
 }
 .icon4{
-	width: 46px;
-	height: 46px;
-	margin-left: 30px;
-	background-position: -281px 0;
+	width: 21px;
+	height: 22px;
+	margin-left: 15px;
+	background-position: -133px 0;
 }
 .icon5{
-	width: 46px;
-	height: 46px;
-	margin-left: 30px;
-	background-position: -383px 0;
+	width: 21px;
+	height: 22px;
+	margin-left: 15px;
+	background-position: -181px 0;
 }
 .icon6{
-	width: 55px;
-	height: 46px;
-	margin-left: 30px;
-	background-position: -483px 0;
+	width: 25px;
+	height: 22px;
+	margin-left: 15px;
+	background-position: -229px 0;
 }
 .icon7{
-	width: 46px;
-	height: 46px;
-	margin-left: 30px;
-	background-position: -595px 0;
+	width: 21px;
+	height: 22px;
+	margin-left: 15px;
+	background-position: -281px 0;
 }
 .ost_button{
 	display: inline-block;
