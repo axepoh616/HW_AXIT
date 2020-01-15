@@ -1,0 +1,52 @@
+@media (max-width: 1200px) {
+	.container {
+		width: 960px;
+	}
+	.block {
+		width: 300px;
+	}
+	.price-block {
+		width: 300px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.container {
+		width: 720px;
+	}
+	.custom-filling .cblock:last-child {
+		display: none;
+	}
+	.contact_form {
+		flex-direction: column;
+	}
+	.contact_form1 {
+		margin-right: 0;
+		width: 100%;
+	}
+	.contact_form2 {
+		width: 100%;
+	}
+	.price-block {
+		width: 230px;
+	}
+	.tab-pic {
+		display: none;
+	}
+}
+
+@media (max-width: 900px) {
+	.container {
+		width: 540px;
+	}
+	.description-tab-form {
+		padding: 0 30px;
+	}
+}
+
+@media (max-width: 576px) {
+	.container {
+		width: 100%;
+		padding: 0 12px;
+	}
+}
