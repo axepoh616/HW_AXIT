@@ -349,9 +349,9 @@ p {
 	top: 150px;
 	left: 100px;
 	transform: translateY(-50%);
-	height: 320px;
-	width: 475px;
-	padding: 0 100px 0 100px;
+	height: 335px;
+	width: 440px;
+	padding-left:100px;
 	display: none;
 }
 
@@ -361,6 +361,7 @@ p {
 	font-family: 'Source Sans Pro';
 	font-weight: bold;
 	font-style: normal;
+	padding-top: 20px;
 }
 
 .description-tab-text {
@@ -738,12 +739,13 @@ p {
 .contact_form {
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-between;
 }
 
 .contact_form1 {
 	width: 500px;
-	margin-right: 60px;
+	padding-left: 2px;
+	
 }
 
 .contact-form-input {
@@ -751,15 +753,15 @@ p {
 	margin: auto;
 	border: 1px solid transparent;
 	border-bottom-color: #d6d6d6;
-	width: 500px;
+	width: 100%;
 	padding-top: 46px;
 	margin-bottom: 10px;
 	outline: none;
 }
 
 .contact_form2 {
-	height: 216px;
-	width: 530px;
+	
+	width: 500px;
 }
 
 .contact-form-input2 {

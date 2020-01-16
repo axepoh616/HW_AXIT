@@ -33,12 +33,91 @@
 	.tab-pic {
 		display: none;
 	}
+	.social{
+		width: 300px;
+	}
+	.links{
+		width: 400px;
+
+	}
+	.links_item {
+		display: inline-block;
+		width: 23px;
+		height: 30px;
+		align-items: center;
+		background-image: url(../img/social-ic.png);
+		background-repeat: no-repeat;
+		background-position: 0px 0;
+		opacity: 1.0;
+		background-size: 400px;
+	}
+	
+	.links_item:hover {
+		opacity: 0.7;
+	}
+	
+	.icon-2 {
+		width: 30px;
+		height: 30px;
+		margin-left: 25px;
+		background-position: -51px 0;
+	}
+	
+	.icon-3 {
+		width: 46px;
+		height: 30px;
+		margin-left: 30px;
+		background-position: -119px 0;
+	}
+	
+	.icon-4 {
+		width: 30px;
+		height: 30px;
+		margin-left: 30px;
+		background-position: -177px 0;
+	}
+	
+	.icon-5 {
+		width: 30px;
+		height: 30px;
+		margin-left: 30px;
+		background-position: -242px 0;
+	}
+	
+	.icon-6 {
+		width: 41px;
+		height: 30px;
+		margin-left: 30px;
+		background-position: -305px 0;
+	}
+	
+	.icon-7 {
+		width: 30px;
+		height: 30px;
+		margin-left: 30px;
+		background-position: -376px 0;
+	}
+	.description-tab-form {
+		display: flex;
+		flex-direction: column;
+		position: absolute;
+		top: 150px;
+		left: 186px;
+		transform: translateY(-50%);
+		height: 335px;
+		width: 440px;
+		
+		display: none;
+	
+
+
 }
 
 @media (max-width: 900px) {
 	.container {
 		width: 540px;
 	}
+	
 	.description-tab-form {
 		padding: 0 30px;
 	}
@@ -49,4 +128,5 @@
 		width: 100%;
 		padding: 0 12px;
 	}
+
 }
