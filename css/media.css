@@ -47,10 +47,7 @@
 
 	}
 	
-	.description-tab-form {
-		padding-left: 340px;
 	
-	}
 	
 }
 
@@ -69,7 +66,7 @@
 	}
 
 	.description-tab-form {
-		padding-left: 150px;
+		margin-left: 130px;
 	}
 	.social_name{
 		display: flex;
@@ -265,12 +262,11 @@
 		width: 100%
 	}
 	.description-tab-form{
-		padding-left: 130px;
+		top: 170px;
+	
 		width: 350px;
 	}
-	.description-tab-text{
-		width: 350px;
-	}
+	
 	.filling{
 		flex-direction: column;
 		align-items: center;
@@ -283,6 +279,13 @@
 	.price-block{
 		width: 100%;
 		margin: 20px 0;
+	}
+	.img{
+		margin-bottom: 20px;
+	}
+
+	.block{
+		margin-bottom: 20px;
 	}
 
 
