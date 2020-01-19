@@ -263,8 +263,7 @@
 	}
 	.description-tab-form{
 		top: 170px;
-	
-		width: 350px;
+	    width: 340px;
 	}
 	
 	.filling{
@@ -296,17 +295,56 @@
 		width: 425px;
 		padding: 0 12px;
 	}
+	.tabs{
+		padding-top: 0;
+		padding-bottom: 0;
+		height: 400px;
+	}
+	.tab-checkbox{
+		height: 20px;
+		width: 110px;
+		
+	}
+	.tab-part{
+		margin-top: 0px;
+	}
+	.tab-form{
+		
+		margin-top: 30px;
+		flex-direction: row;
+		justify-content: space-between;
+		height: 20px;
+        width: 100%;
+	}
+	.description-tab-form{
+		
+		margin: 50px 0;
+		width: 100%;
+		align-items: center;
+	}
+	
+
 	.description{
 		width: 100%;
 	}
 	.descriptions-tab-form-text{
-		margin: 0;
+		width: 100%;
+		align-items: center;
+	}
+	.description-tab-form-text{
+		width: 100%;;
 	}
 	.description-tab-text{
-		width: 270px;
+		width: 100%;
 		padding-top: 0;
+		align-items: center;
+		text-align: center;
 	}
-
-
 	
+}
+@media (max-width: 420px) {
+	.container {
+		width: 360px;
+		padding: 0 6px;
+	}
 }
