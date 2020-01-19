@@ -309,7 +309,7 @@
 		margin-top: 0px;
 	}
 	.tab-form{
-		
+		position: relative;
 		margin-top: 30px;
 		flex-direction: row;
 		justify-content: space-between;
@@ -317,7 +317,7 @@
         width: 100%;
 	}
 	.description-tab-form{
-		
+		left: 0;
 		margin: 50px 0;
 		width: 100%;
 		align-items: center;
@@ -340,11 +340,34 @@
 		align-items: center;
 		text-align: center;
 	}
+	.description_text{
+		width: 100%;
+	}
+	.description_title{
+		width: 100%;
+	}
 	
 }
-@media (max-width: 420px) {
+@media (max-width: 425px) {
 	.container {
-		width: 360px;
+		width: 100%;
 		padding: 0 6px;
 	}
+	.tabs{
+		height: 430px;
+	}
+
+}
+@media (max-width: 340px) {
+	.container {
+		width: 100%;
+		padding: 0 6px;
+	}
+	.tabs{
+		height: 430px;
+	}
+	.tab-checkbox{
+		width: 90px;
+	}
+
 }
