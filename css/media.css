@@ -11,8 +11,11 @@
 	.description-tab-form {
 		width: 400px;
 	}
-	.links{
+	.links {
 		width: 550px;
+	}
+	.custom-filling {
+		margin-left: 65px;
 	}
 }
 
@@ -20,8 +23,8 @@
 	.container {
 		width: 720px;
 	}
-	.custom-filling .cblock:last-child {
-		display: none;
+	.custom-filling {
+		margin-left: 60px;
 	}
 	.contact_form {
 		flex-direction: column;
@@ -39,51 +42,43 @@
 	.tab-pic {
 		display: none;
 	}
-	.social{
+	.social {
 		width: 300px;
 	}
-	.links{
+	.links {
 		width: 400px;
-
 	}
-	
-	
-	
 }
 
 @media (max-width: 900px) {
 	.container {
 		width: 540px;
 	}
-	.social{
+	.social {
 		align-items: center;
 		justify-content: center;
 		width: 100%;
 	}
-	.social_media{
+	.social_media {
 		flex-direction: column;
-		
 	}
-
 	.description-tab-form {
 		margin-left: 130px;
 	}
-	.social_name{
+	.social_name {
 		display: flex;
 		justify-content: center;
 	}
-	.description_text_social{
-		
+	.description_text_social {
 		text-align: center;
 	}
 	.links {
 		display: flex;
 		justify-content: space-between;
 		padding-bottom: 20px;
-	    height: 22px;
+		height: 22px;
 		width: 252px;
 	}
-	
 	.links_item {
 		display: inline-block;
 		width: 11px;
@@ -94,67 +89,54 @@
 		background-position: 0px 0;
 		background-size: 300px;
 		opacity: 0.5;
-		
 	}
-	
 	.links_item:hover {
 		opacity: 0.9;
 	}
-	
 	.icon-2 {
 		width: 21px;
 		height: 22px;
 		background-position: -41px 0;
 	}
-	
 	.icon-3 {
 		width: 21px;
 		height: 22px;
-		
 		background-position: -90px 0;
 	}
-	
 	.icon-4 {
 		width: 21px;
 		height: 22px;
-		
 		background-position: -133px 0;
 	}
-	
 	.icon-5 {
 		width: 21px;
 		height: 22px;
-		
 		background-position: -181px 0;
 	}
-	
 	.icon-6 {
 		width: 25px;
 		height: 22px;
-		
 		background-position: -229px 0;
 	}
-	
 	.icon-7 {
 		width: 21px;
 		height: 22px;
-		
 		background-position: -281px 0;
 	}
-	.custom-filling .cblock:first-child {
-		display: none;
+	.custom-filling {
+		margin-left: 20px;
+		width: 500px;
 	}
-	.cblock{
+	.cblock {
 		width: 100%;
 	}
-	.custom-text{
+	.custom-text {
 		width: 100%;
 		text-align: center;
 	}
-	.price-block{
+	.price-block {
 		width: 30%;
 	}
-	
 }
 
 @media (max-width: 576px) {
@@ -162,61 +144,54 @@
 		width: 500px;
 		padding: 0 12px;
 	}
-
-	.top_container{
+	.top_container {
 		flex-direction: column;
 	}
-	.description{
+	.description {
 		width: 100%;
 	}
-	.top-form{
+	.top-form {
 		width: 100%;
-		margin: 30px 0 30px ;
+		margin: 30px 0 30px;
 	}
-	.burger{
+	.burger {
 		display: block;
 		width: 30px;
 		height: 30px;
 		position: relative;
 	}
-	.burger.cross .burger_line{
+	.burger.cross .burger_line {
 		display: none;
 	}
-	.burger:before, .burger:after{
+	.burger:before, .burger:after {
 		content: "";
 	}
-	
-	.burger:before{
+	.burger:before {
 		top: 0;
 	}
-	.burger:after{
+	.burger:after {
 		bottom: 0;
-	
 	}
-	.burger.cross:before{
+	.burger.cross:before {
 		transform: rotateZ(45deg);
 		top: 50%;
 	}
-	.burger.cross:after{
+	.burger.cross:after {
 		transform: rotateZ(-45deg);
 		top: 50%;
 	}
-	.burger_line{
+	.burger_line {
 		top: 50%;
 		transform: rotateY(-50%);
-		
-
 	}
-	.burger_line, .burger:before, .burger:after{
+	.burger_line, .burger:before, .burger:after {
 		height: 2px;
 		width: 100%;
 		position: absolute;
 		background-color: white;
 		transition: .3s;
-		
 	}
-
-	.menu{
+	.menu {
 		position: fixed;
 		top: 0;
 		left: 0;
@@ -229,14 +204,12 @@
 		padding: 75px 0 0 75px;
 		transform: translateX(-100%);
 		transition: .3s;
-
 	}
-	.menu.visible{
+	.menu.visible {
 		transform: translateX(0);
 		transition: .3s;
-		
 	}
-	.bg{
+	.bg {
 		background-color: black;
 		position: fixed;
 		top: 0;
@@ -247,127 +220,133 @@
 		z-index: 998;
 		display: none;
 	}
-	.bg.visible{
+	.bg.visible {
 		display: block
-
 	}
-	.top_container{
+	.top_container {
 		width: 100%;
 	}
-	.description_text{
+	.description_text {
 		width: 400px;
 		left: 0;
 	}
-	.social{
+	.social {
 		width: 100%
 	}
-	.description-tab-form{
+	.description-tab-form {
 		top: 170px;
-	    width: 340px;
+		width: 340px;
 	}
-	
-	.filling{
+	.custom-filling {
+		margin-left: 40px;
+		width: 400px;
+	}
+	.filling {
 		flex-direction: column;
 		align-items: center;
 	}
-	.price-filling{
+	.price-filling {
 		flex-direction: column;
 		align-items: center;
-
 	}
-	.price-block{
+	.price-block {
 		width: 100%;
 		margin: 20px 0;
 	}
-	.img{
+	.img {
 		margin-bottom: 20px;
 	}
-
-	.block{
+	.block {
 		margin-bottom: 20px;
 	}
-
-
-
 }
+
 @media (max-width: 500px) {
 	.container {
 		width: 425px;
 		padding: 0 12px;
 	}
-	.tabs{
+	.tabs {
 		padding-top: 0;
 		padding-bottom: 0;
 		height: 400px;
 	}
-	.tab-checkbox{
+	.tab-checkbox {
 		height: 20px;
 		width: 110px;
-		
 	}
-	.tab-part{
+	.tab-part {
 		margin-top: 0px;
 	}
-	.tab-form{
+	.tab-form {
 		position: relative;
 		margin-top: 30px;
 		flex-direction: row;
 		justify-content: space-between;
 		height: 20px;
-        width: 100%;
+		width: 100%;
 	}
-	.description-tab-form{
+	.description-tab-form {
 		left: 0;
 		margin: 50px 0;
 		width: 100%;
 		align-items: center;
 	}
-	
-
-	.description{
+	.description {
 		width: 100%;
 	}
-	.descriptions-tab-form-text{
+	.descriptions-tab-form-text {
 		width: 100%;
 		align-items: center;
 	}
-	.description-tab-form-text{
-		width: 100%;;
+	.description-tab-form-text {
+		width: 100%;
+		;
 	}
-	.description-tab-text{
+	.description-tab-text {
 		width: 100%;
 		padding-top: 0;
 		align-items: center;
 		text-align: center;
 	}
-	.description_text{
+	.description_text {
 		width: 100%;
 	}
-	.description_title{
+	.description_title {
 		width: 100%;
 	}
-	
+	.custom-filling {
+		margin-left: 50px;
+		width: 300px;
+	}
 }
+
 @media (max-width: 425px) {
 	.container {
 		width: 100%;
 		padding: 0 6px;
 	}
-	.tabs{
+	.tabs {
 		height: 430px;
 	}
-
-}
-@media (max-width: 340px) {
-	.container {
-		width: 100%;
-		padding: 0 6px;
+	.custom-filling {
+		margin-left: 30px;
+		width: 300px;
 	}
-	.tabs{
-		height: 430px;
+	@media (max-width: 340px) {
+		.container {
+			width: 100%;
+			padding: 0 6px;
+		}
+		.tabs {
+			height: 430px;
+		}
+		.tab-checkbox {
+			width: 90px;
+		}
+		.custom-filling {
+			margin-left: 40px;
+			width: 250px;
+		}
 	}
-	.tab-checkbox{
-		width: 90px;
-	}
-
 }

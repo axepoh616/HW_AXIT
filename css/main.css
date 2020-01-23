@@ -60,13 +60,9 @@ a {
 	margin-right: 0;
 }
 
-.burger{
+.burger {
 	display: none;
 }
-
-
-
-
 
 .top {
 	background-color: #000;
@@ -148,6 +144,11 @@ p {
 	background-color: white;
 	border-radius: 1%;
 	overflow: hidden;
+	opacity: 0.7;
+}
+
+.top-form:hover {
+	opacity: 0.9;
 }
 
 .free {
@@ -157,8 +158,8 @@ p {
 
 .top-form-title {
 	display: flex;
-    align-items: center;
-    justify-content: center;
+	align-items: center;
+	justify-content: center;
 	background-color: #f5f5f5;
 	height: 55px;
 	margin-top: auto;
@@ -198,16 +199,16 @@ p {
 	background-color: #ce7100;
 	border: #ce7100;
 }
-.social_container{
+
+.social_container {
 	margin-bottom: 3px;
 	box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
 }
+
 .social_media {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	
-	
 }
 
 .social {
@@ -254,45 +255,38 @@ p {
 .icon-2 {
 	width: 46px;
 	height: 46px;
-	
 	background-position: -84px 0;
 }
 
 .icon-3 {
 	width: 46px;
 	height: 46px;
-	
 	background-position: -190px 0;
 }
 
 .icon-4 {
 	width: 46px;
 	height: 46px;
-	
 	background-position: -281px 0;
 }
 
 .icon-5 {
 	width: 46px;
 	height: 46px;
-	
 	background-position: -383px 0;
 }
 
 .icon-6 {
 	width: 55px;
 	height: 46px;
-	
 	background-position: -483px 0;
 }
 
 .icon-7 {
 	width: 46px;
 	height: 46px;
-	
 	background-position: -595px 0;
 }
-
 
 .tabs {
 	padding-top: 120px;
@@ -359,7 +353,7 @@ p {
 	transform: translateY(-50%);
 	width: 500px;
 	height: 335px;
-	margin-left:200px;
+	margin-left: 200px;
 	display: none;
 }
 
@@ -370,8 +364,6 @@ p {
 	font-weight: bold;
 	font-style: normal;
 	width: 200px;
-	
-	
 }
 
 .description-tab-text {
@@ -419,7 +411,6 @@ p {
 	width: 64px;
 	margin-top: 30px;
 	margin-bottom: 30px;
-	
 }
 
 .block {
@@ -589,8 +580,6 @@ p {
 	font-style: normal;
 }
 
-
-
 .custom-header-text {
 	margin-top: 30px;
 	text-align: center;
@@ -602,7 +591,6 @@ p {
 	justify-content: center;
 	height: 135px;
 	width: 275px;
-	
 	color: gray;
 	background-color: #f5f5f5;
 	border-radius: 2px;
@@ -621,8 +609,7 @@ p {
 }
 
 .custom-filling {
-	display: flex;
-	justify-content: space-between;
+	margin-left: 60px;
 }
 
 .cblock {
@@ -738,8 +725,6 @@ p {
 	text-transform: uppercase;
 }
 
-
-
 .contact-header-text {
 	text-align: center;
 	color: gray;
@@ -755,7 +740,6 @@ p {
 .contact_form1 {
 	width: 45%;
 	padding-left: 2px;
-	
 }
 
 .contact-form-input {
@@ -770,7 +754,6 @@ p {
 }
 
 .contact_form2 {
-	
 	width: 45%;
 }
 
