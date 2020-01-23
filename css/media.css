@@ -14,17 +14,11 @@
 	.links {
 		width: 550px;
 	}
-	.custom-filling {
-		margin-left: 65px;
-	}
 }
 
 @media (max-width: 1024px) {
 	.container {
 		width: 720px;
-	}
-	.custom-filling {
-		margin-left: 60px;
 	}
 	.contact_form {
 		flex-direction: column;
@@ -122,10 +116,6 @@
 		width: 21px;
 		height: 22px;
 		background-position: -281px 0;
-	}
-	.custom-filling {
-		margin-left: 20px;
-		width: 500px;
 	}
 	.cblock {
 		width: 100%;
@@ -237,10 +227,6 @@
 		top: 170px;
 		width: 340px;
 	}
-	.custom-filling {
-		margin-left: 40px;
-		width: 400px;
-	}
 	.filling {
 		flex-direction: column;
 		align-items: center;
@@ -315,10 +301,6 @@
 	.description_title {
 		width: 100%;
 	}
-	.custom-filling {
-		margin-left: 50px;
-		width: 300px;
-	}
 }
 
 @media (max-width: 425px) {
@@ -329,24 +311,17 @@
 	.tabs {
 		height: 430px;
 	}
-	.custom-filling {
-		margin-left: 30px;
-		width: 300px;
+}
+
+@media (max-width: 340px) {
+	.container {
+		width: 100%;
+		padding: 0 6px;
 	}
-	@media (max-width: 340px) {
-		.container {
-			width: 100%;
-			padding: 0 6px;
-		}
-		.tabs {
-			height: 430px;
-		}
-		.tab-checkbox {
-			width: 90px;
-		}
-		.custom-filling {
-			margin-left: 40px;
-			width: 250px;
-		}
+	.tabs {
+		height: 430px;
+	}
+	.tab-checkbox {
+		width: 90px;
 	}
 }
