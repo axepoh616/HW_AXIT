@@ -21,7 +21,6 @@ a {
 
 .button {
 	perspective: 500px;
-	-webkit-transform-style: preserve-3d;
 }
 
 .button:hover .button_rotate {
@@ -36,12 +35,9 @@ a {
 	width: inherit;
 	height: inherit;
 	position: relative;
-	-webkit-perspective: 400px;
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
-	-webkit-animation: notransform 4s infinite;
-	animation: notransform 4s infinite;
 }
 
 .title {
