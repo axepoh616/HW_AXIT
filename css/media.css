@@ -287,9 +287,8 @@
 	}
 	.description-tab-form-text {
 		width: 100%;
-		;
 	}
-	.block .description-tab-text {
+	.description-tab-text {
 		width: 100%;
 		padding-top: 0;
 		align-items: center;
